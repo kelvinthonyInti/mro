@@ -7,7 +7,7 @@
             <field name="name">mro.pm.meter.tree</field>
             <field name="model">mro.pm.meter</field>
             <field name="arch" type="xml">
-                <tree string="Update Meters" selector="0" create="false" delete="false" editable="bottom" >
+                <tree string="Update Meters" create="false" delete="false" editable="bottom" >
                     <field name="asset_id" readonly="1"/>
                     <field name="name" readonly="1"/>
                     <field name="date" string="Reading Date" readonly="1"/>
