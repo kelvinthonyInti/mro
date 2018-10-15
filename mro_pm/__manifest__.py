@@ -32,7 +32,7 @@ Required modules:
     'category': 'Industries',
     'sequence': 0,
     'depends': ['mro'],
-    'demo': ['mro_pm_demo.xml'],
+    #'demo': ['mro_pm_demo.xml'],
     'data': [
         'security/ir.model.access.csv',
         'wizard/replan_view.xml',
