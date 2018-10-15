@@ -50,11 +50,11 @@
             <field name="name">mro.pm.meter.log.tree</field>
             <field name="model">mro.pm.meter</field>
             <field name="arch" type="xml">
-                <tree string="Meters Logs" create="false" delete="false" readonly="1" editable="bottom">
+                <tree string="Meters Logs" editable="bottom">
                     <field name="asset_id" readonly="1"/>
                     <field name="name" readonly="1"/>
-                   <!-- <button string="Reading History" name="%(mro_pm.open_reading_log)d" type="action"
-                            states="reading,reset"/>-->
+                    <button string="Reading History" name="%(mro_pm.open_reading_log)d" type="action"
+                            states="reading,reset"/>
                     <field name="date" string="Reading Date" readonly="1"/>
                     <field name="value" string="Last Reading" readonly="1"/>
                     <field name="total_value" readonly="1"/>
