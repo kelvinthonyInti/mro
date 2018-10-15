@@ -7,7 +7,7 @@
             <field name="name">mro.pm.meter.tree</field>
             <field name="model">mro.pm.meter</field>
             <field name="arch" type="xml">
-                <tree string="Update Meters" create="false" delete="false" editable="bottom" >
+                <tree string="Update Meters" create="false" delete="false" editable="bottom">
                     <field name="asset_id" readonly="1"/>
                     <field name="name" readonly="1"/>
                     <field name="date" string="Reading Date" readonly="1"/>
@@ -53,8 +53,8 @@
                 <tree string="Meters Logs" create="false" delete="false" readonly="1" editable="bottom">
                     <field name="asset_id" readonly="1"/>
                     <field name="name" readonly="1"/>
-                    <button  string="Reading History" name="%(mro_pm.open_reading_log)d" type="action"
-                            states="reading,reset"/>
+                   <!-- <button string="Reading History" name="%(mro_pm.open_reading_log)d" type="action"
+                            states="reading,reset"/>-->
                     <field name="date" string="Reading Date" readonly="1"/>
                     <field name="value" string="Last Reading" readonly="1"/>
                     <field name="total_value" readonly="1"/>
@@ -144,7 +144,7 @@
             <field name="name">mro.pm.meter.line.tree</field>
             <field name="model">mro.pm.meter.line</field>
             <field name="arch" type="xml">
-                <tree string="Reading History" create="false" delete="false" editable="bottom" >
+                <tree string="Reading History" create="false" delete="false" editable="bottom">
                     <field name="date" readonly="1"/>
                     <field name="value" readonly="1"/>
                     <field name="total_value" readonly="1"/>
